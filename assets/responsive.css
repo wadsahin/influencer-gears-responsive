@@ -1,0 +1,82 @@
+/* For mobile or small devices */
+@media screen and (max-width: 576px) {
+
+  /* nav */
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    float: none;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  /* hero section */
+  .hero-section {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .hero-contents-column {
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 40px;
+  }
+
+  /* Sponsor section */
+  .sponsor-section {
+    /* gap: 60px; */
+    flex-direction: column;
+  }
+  .sponsor-section img{
+    width: 70%;
+  }
+  /* collection section */
+  .coll-cards-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+
+/* For tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+  /* nav */
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    float: none;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  /* hero section */
+  .hero-section {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .hero-contents-column {
+    text-align: center;
+  }
+  /* Sponsor section */
+  .sponsor-section {
+    gap: 80px;
+    flex-direction: column;
+  }
+  .sponsor-section img{
+    width: 50%;
+  }
+  /* collection section */
+  .coll-cards-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
