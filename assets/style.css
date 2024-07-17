@@ -160,3 +160,16 @@ nav li a {
   color: rgba(253, 7, 97, 0.87);
   font-weight: bold;
 }
+/* featured section style */
+.featured{
+  gap: 96px;
+  align-items: center;
+  justify-content: center;
+}
+.featured-btn{
+  background-color: #E02C6D;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  color: white;
+}
