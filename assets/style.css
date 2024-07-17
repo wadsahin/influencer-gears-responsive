@@ -173,3 +173,14 @@ nav li a {
   border: none;
   color: white;
 }
+/* footer styles */
+footer{
+  background-color: #0A0826;
+  padding: 30px;
+}
+footer .footer-info{
+  max-width: 262px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
